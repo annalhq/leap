@@ -9,3 +9,6 @@
 /build/
 /debug/
 /release/
+
+# Ignore .vscode folder
+.vscode/

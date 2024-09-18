@@ -3,7 +3,17 @@
 // main() is the entry point of the program
 
 #include <iostream>
+
+void Log(const char* message){
+        std::cout << message << std::endl;
+}
+
 int main(){
         // pushing hello world into the cout function
         std::cout << "Hello World!" << std::endl;
+        // endl -> end line
+
+        Log("hello from another world");
+        std::cin.get(); 
+        
 }
