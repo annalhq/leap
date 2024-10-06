@@ -41,3 +41,16 @@ fn main() {
     print!("{}", s);
 }
 ```
+Strings can be changed during runtime, so it can get unsafe if not handled properly.
+
+When we use 
+```rust
+let s: String = String::from("Hello, world!");
+```
+The type of s is String, and it is immutable.
+
+and while using
+```rust
+let my_string = "hello world";
+```
+the type of my_string is &str, and it is a reference to a string literal.
