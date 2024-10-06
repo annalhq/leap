@@ -9,7 +9,7 @@
 /build/
 /debug/
 /release/
-/target/
+target/
 
 # Ignore .vscode folder
 .vscode/
