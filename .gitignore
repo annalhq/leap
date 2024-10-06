@@ -9,7 +9,9 @@
 /build/
 /debug/
 /release/
-target/
 
 # Ignore .vscode folder
 .vscode/
+
+#Ignore target folder in rust
+target/
