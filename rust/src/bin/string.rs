@@ -6,6 +6,6 @@ fn main() {
 
     print!("{}\n", my_string);
     print!("{}\n", my_string.chars().nth(0).unwrap());
-    print!("{}\n", my_string.len());
+    print!("{}\n", my_string.len()
     print!("{}\n", my_string.chars().count());
 }

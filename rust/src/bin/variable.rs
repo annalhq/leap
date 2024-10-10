@@ -1,5 +1,4 @@
 fn main() {
-    
     // ─── Variable Types In Rust ──────────────────────────────────────────
     let x: i32 = 13; // signed 32 bit integer
     let y: u32 = 20; // unsigned 32 bit integer
@@ -7,6 +6,5 @@ fn main() {
 
     print!("\n x is {}\n y is {}\n z is {}\n", x, y, z);
     // ─────────────────────────────────────────────────────────────────────
-
-    
 }
+
