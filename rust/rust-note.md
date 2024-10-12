@@ -127,4 +127,12 @@ fn main() {
 ```
 this will throw error as the scope of the variable ***y*** was just limited inside the {} braces.
 
-```
+## Heap variable
+
+These variable have single owner and if their owner gets out of scope then variables get deallocated.
+
+Memory management in C leads to lots of error when heap is associated, like ***dangling pointers, double free error*** 
+
+- A dangling pointer in C is a pointer that points to a memory location that has been deallocated or is no longer valid. Dangling pointers can cause various problems in a program, including segmentation faults, memory leaks, and unpredictable behavior.
+
+- Double free errors occur when free() is called more than once with the same memory address as an argument. Calling free() twice on the same value can lead to memory leak.
